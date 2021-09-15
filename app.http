@@ -1,0 +1,29 @@
+GET http://localhost:3001/books/
+
+
+####
+
+POST  http://localhost:3001/books/
+Content-type: application/json
+
+{
+    "id":"7",
+    "title":"funny things",
+    "author":"zexin",
+    "price":"900"
+}
+
+
+###
+PUT   http://localhost:3001/books/6/
+Content-type: application/json
+
+{
+    "title":"funny things",
+    "author":"rosy",
+    "price":"900"
+}
+
+####
+
+DELETE http://localhost:3001/books/7/
