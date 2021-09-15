@@ -33,7 +33,7 @@ const initializeDbAndServer = async () => {
 initializeDbAndServer();
 
 
-//CURD OPERATIONS
+//CRUD OPERATIONS
 
 //Reading  books
 app.get("/books/", async (request, response) => {
